@@ -1,0 +1,25 @@
+/* import fonts from google-font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Outfit:wght@500&family=Source+Sans+Pro:wght@600;700&display=swap");
+/* example use font {
+font-family: "Lato", sans-serif;
+font-family: "Outfit", sans-serif;
+font-family: "Source Sans Pro", sans-serif;
+} */
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  /* max-width: 75rem; */
+}
+.header-menu {
+  list-style: none;
+}
+/* .section{
+    background-color: gainsboro;
+} */
+.images{
+    width: 10rem;
+    height: 10rem;
+}
+.section-child{
+    background-color: gainsboro;
+    display: inline-block;
+}
