@@ -139,5 +139,12 @@ font-family: "Source Sans Pro", sans-serif;
 .aside span{
     font-size: 1.2rem;
 }
+.aside span::selection {
+  text-shadow: 1px 1px 5px blueviolet;
+  background: none;
+}
+/* end goals */
+
+
 
 
