@@ -58,7 +58,6 @@ font-family: "Source Sans Pro", sans-serif;
   border-radius: 2rem;
   box-shadow: 1px 1px 10px 5px gray;
   padding: 2rem;
-
 }
 
 .main h1 {
@@ -96,7 +95,7 @@ font-family: "Source Sans Pro", sans-serif;
   border-radius: 50%;
 }
 
-.section{
+.section {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -136,8 +135,8 @@ font-family: "Source Sans Pro", sans-serif;
   border-width: 8px;
   border-radius: 50%;
 }
-.aside span{
-    font-size: 1.2rem;
+.aside span {
+  font-size: 1.2rem;
 }
 .aside span::selection {
   text-shadow: 1px 1px 5px blueviolet;
@@ -160,24 +159,59 @@ font-family: "Source Sans Pro", sans-serif;
   background: none;
 }
 
-.aside-rules{
-    margin-top: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.aside-rules {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.aside-child-1{
-    font-size: 2rem;
-     display: flex;
-    align-items: center;
+.aside-child-1 {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
 }
 
-.aside-child-1 span{
-    display: flex;
-    border-style: solid;
-    border-color: black;
-    width: 0;
-    height: 16em;
+.aside-child-1 span {
+  display: flex;
+  border-style: solid;
+  border-color: black;
+  width: 0;
+  height: 16em;
 }
 /* end rules */
+
+/* surplus style for section page */
+.images-section {
+  width: 60vh;
+  height: 22vw;
+  border-style: double;
+  box-shadow: 1px 1px 10px 1px gray;
+  border-width: 8px;
+  border-radius: 50%;
+}
+
+.aside-table {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  width: 80vw;
+  padding: 0.5rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1rem;
+}
+
+.table td::selection,
+.table th::selection {
+  text-shadow: 1px 1px 5px blueviolet;
+  background: none;
+}
+
+.table td {
+  border-style: solid;
+  font-family: "Outfit", sans-serif;
+}
+/* end section */
