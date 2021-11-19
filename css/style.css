@@ -145,6 +145,39 @@ font-family: "Source Sans Pro", sans-serif;
 }
 /* end goals */
 
+/* surplus style for rules page */
+.images-rules {
+  width: 16vh;
+  height: 7vw;
+  border-style: double;
+  box-shadow: 1px 1px 10px 1px gray;
+  border-width: 8px;
+  border-radius: 50%;
+}
 
+.aside strong::selection {
+  text-shadow: 1px 1px 5px blueviolet;
+  background: none;
+}
 
+.aside-rules{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.aside-child-1{
+    font-size: 2rem;
+     display: flex;
+    align-items: center;
+}
+
+.aside-child-1 span{
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    width: 0;
+    height: 16em;
+}
+/* end rules */
